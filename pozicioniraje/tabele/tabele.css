@@ -1,0 +1,25 @@
+table {
+  margin: auto;
+  margin-top: 200px;
+}
+
+th {
+  background-color: rgb(4, 100, 71);
+  border-collapse: collapse;
+  padding: 10px;
+  margin: 0px;
+  text-align: left;
+  color: white;
+}
+table,
+th,
+tr,
+td {
+  border-collapse: collapse;
+  padding: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+td {
+  border-bottom: 1px solid lightgrey;
+  width: 100px;
+}

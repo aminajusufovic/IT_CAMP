@@ -1,0 +1,16 @@
+h1 {
+  color: aqua;
+  background-color: black;
+  border: 5px solid yellow;
+  border-radius: 50px;
+}
+
+#nizi {
+  color: tomato;
+}
+.seki {
+  color: blue;
+}
+div {
+  background-color: chartreuse;
+}

@@ -1,0 +1,21 @@
+h1 {
+  color: red;
+}
+
+h2 {
+  color: aqua;
+}
+
+p {
+  font-size: 20px;
+}
+
+.mojaKlasa {
+  color: blue;
+  background-color: black;
+}
+#naslov {
+  font-weight: bold;
+  color: plum;
+  font-size: 90px;
+}

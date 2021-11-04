@@ -1,0 +1,28 @@
+h3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  margin-bottom: 2px;
+}
+h2 {
+  margin-top: 8px;
+}
+img {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  float: left;
+  padding-right: 14px;
+}
+section {
+  float: left;
+  height: 200px;
+  padding-right: 9px;
+  text-decoration: underline;
+  padding-top: 20px;
+}
+.sve,
+.sve1,
+.sve2 {
+  margin: 90px 0px 0px 100px;
+  float: left;
+}
