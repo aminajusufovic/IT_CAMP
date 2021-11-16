@@ -15,3 +15,23 @@ overflow:(scrool, auto, hidden, visible)
 z-index:3;(slojevi)
 position:absolute(se pozicionira u odnosu na prethodnika, div u divu)
 github
+.box:hover{width, height, tranition:0.9s}(na prelazu menja css)
+div p:nth-child(2,odd,even,3n)
+h1::before,after{stavljaju nesto pre ili posle sadrzaja)
+transform:translate(50px,100px)-da premestamo element desno i dole, - se stavlja za suprotno
+transform:rotate(90deg);-za suprotno;
+div:hover{transform:scale(2,3)} dva puta povecava za sirinu i 3 za visinu.
+transform:rotateX(rotira po x osi 3D) ima i rotateY
+transition: width 2s, height 4s; -povecava se objekat;
+transition-timing-function:linear,ease,ease-in,ease-out,ease-in-out
+transition-delay-odlaganje tranzicije za neko vreme
+transition property:width-na sta se odnosi tranzicija
+animation-iteration-count: infinite; 
+display:flex;
+flex-direction:row, row-revese, column,column-reverse
+flex-wrap:nowrap,wrap, wrap-reverse
+justify-content: flex-start,flex-end,center,space-between,space-around,space-evenly
+align-items:flex-start,flex-end,stretch,center,baseline
+
+
+

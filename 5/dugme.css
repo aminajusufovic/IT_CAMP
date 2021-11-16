@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.block {
+  width: 300px;
+  height: 200px;
+  background-color: rgb(238, 232, 232);
+  border-radius: 30px;
+  animation-name: example;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+@keyframes example {
+  0% {
+    width: 400px;
+    height: 250px;
+    box-shadow: 5px 5px 6px 0xp;
+  }
+  25% {
+    width: 70px;
+    height: 250px;
+    box-shadow: 5px 5px 6px 0px;
+  }
+
+  50% {
+    width: 70px;
+    height: 70px;
+    box-shadow: 5px 5px 6px 0px;
+  }
+
+  75% {
+    width: 70px;
+    height: 70px;
+    box-shadow: inset 3px 3px 6px 0px;
+  }
+
+  100% {
+    width: 70px;
+    height: 70px;
+    box-shadow: inset 3px 3px 2px 0px;
+  }
+}

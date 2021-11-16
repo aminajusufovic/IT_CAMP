@@ -1,0 +1,21 @@
+.malaslika {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+.velikaslika {
+  width: 10px;
+  height: 10px;
+}
+i {
+  display: inline-block;
+}
+
+i:hover {
+  background-color: rgb(100, 199, 100);
+  transition: 1s;
+}
+
+.divic:hover {
+  border: 3px solid white;
+}

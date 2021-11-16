@@ -1,0 +1,100 @@
+body {
+  background-color: grey;
+}
+
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7,
+.div8 {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 40px;
+  box-shadow: 7px 7px 5px black;
+}
+
+h2,
+h4 {
+  padding-left: 20px;
+}
+.div1,
+.div7,
+.div3,
+.div5 {
+  transform: rotate(7deg);
+  background-color: aqua;
+}
+.div2,
+.div8,
+.div4,
+.div6 {
+  transform: rotate(-8deg);
+  background-color: darkred;
+}
+.div1,
+.div7 {
+  background-color: darkgreen;
+}
+.div6,
+.div4 {
+  background-color: cadetblue;
+}
+.div1:hover {
+  transform: rotate(0deg);
+  width: 240px;
+  height: 240px;
+  transition: 0.3s;
+}
+.div2:hover {
+  transform: rotate(0deg);
+  width: 240px;
+  height: 240px;
+  transition: 0.3s;
+}
+
+.div3:hover {
+  transform: rotate(0deg);
+  width: 240px;
+  height: 240px;
+  transition: 0.3s;
+}
+
+.div4:hover {
+  transform: rotate(0deg);
+  width: 240px;
+  height: 240px;
+  transition: 0.3s;
+}
+
+.div5:hover {
+  transform: rotate(0deg);
+  width: 240px;
+  height: 240px;
+  transition: 0.3s;
+}
+
+.div6:hover {
+  transform: rotate(0deg);
+  width: 240px;
+  height: 240px;
+  transition: 0.3s;
+}
+
+.div7:hover {
+  transform: rotate(0deg);
+  width: 240px;
+  height: 240px;
+  transition: 0.3s;
+}
+
+.div8:hover {
+  transform: rotate(0deg);
+  width: 240px;
+  height: 240px;
+  transition: 0.3s;
+}
