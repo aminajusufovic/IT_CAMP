@@ -1,0 +1,19 @@
+nav,
+ul,
+li {
+  text-decoration: none;
+  display: inline-block;
+  background-color: lightgrey;
+}
+nav li {
+  width: 200px;
+  padding: 10px;
+}
+@media screen and (max-width: 480px) {
+  nav,
+  ul,
+  li {
+    background-color: red;
+    /* display: block; */
+  }
+}
