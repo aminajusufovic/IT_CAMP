@@ -1,0 +1,316 @@
+@media (min-width: 1025px) and (max-width: 1280px) {
+  body {
+    padding: 0px 0px;
+  }
+  .cstories {
+    position: absolute;
+    bottom: 320px;
+    left: 15%;
+    color: white;
+    font-size: 110px;
+    width: 800px;
+  }
+  .drugaslika,
+  .trecaslika,
+  .cetvrtaslika {
+    height: 600px;
+  }
+
+  .grid {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+  }
+
+  .grid1 {
+    width: 300px;
+    height: 319px;
+  }
+  .ikone {
+    width: 210px;
+    height: 270px;
+    text-align: center;
+    font-size: 70px;
+
+    color: white;
+  }
+  .griddva {
+    display: grid;
+    grid-template-columns: 210px 210px 210px 210px;
+    column-gap: 30px;
+    justify-content: center;
+  }
+  .trecicont,
+  .peticont {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    right: 30px;
+    top: 40px;
+  }
+
+  .cetvrticont {
+    width: 400px;
+    height: 300px;
+    position: relative;
+    left: 30px;
+    top: 70px;
+  }
+}
+@media (min-width: 1280px) {
+  body {
+    padding: 0;
+  }
+}
+/* TABLET............................................................*/
+@media (min-width: 480px) and (max-width: 1024px) {
+  body {
+    padding: 0px 0px;
+  }
+  .prvaslika {
+    width: 100%;
+    height: 650px;
+  }
+  .prvicont {
+    position: relative;
+    height: 650px;
+  }
+  .cstories {
+    position: absolute;
+    bottom: 280px;
+    left: 15%;
+    right: 20%;
+    color: white;
+    font-size: 80px;
+    width: 550px;
+  }
+  .drugaslika,
+  .trecaslika,
+  .cetvrtaslika {
+    height: 500px;
+  }
+
+  .grid {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 220px 220px 220px;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+  }
+
+  .grid1 {
+    width: 220px;
+    height: 250px;
+  }
+  .ikone {
+    width: 320px;
+    height: 270px;
+    text-align: center;
+    font-size: 70px;
+
+    color: white;
+  }
+  .griddva {
+    display: grid;
+    grid-template-columns: 320px 320px 320px 320px;
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .trecicont,
+  .peticont {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    right: 30px;
+    top: 40px;
+  }
+
+  .cetvrticont {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 30px;
+    top: 40px;
+  }
+  .naslov32,
+  .naslov42,
+  .naslov52 {
+    font-size: 40px;
+  }
+  .text3,
+  .text4,
+  .text5 {
+    font-size: 19px;
+  }
+  .nizcont {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .niz {
+    width: 350px;
+    height: 300px;
+  }
+  .contact {
+    position: absolute;
+    left: 28%;
+    top: 230px;
+    font-size: 40px;
+    color: white;
+  }
+}
+/*TELEFONNN*/
+@media (max-width: 580px) {
+  .prvaslika {
+    width: 100%;
+    height: 600px;
+  }
+  .prvicont {
+    position: relative;
+    height: 600px;
+  }
+  .cstories {
+    position: absolute;
+    bottom: 210px;
+    left: 20%;
+    right: 20%;
+    color: white;
+    font-size: 85px;
+    width: 100px;
+  }
+  .drugaslika,
+  .trecaslika,
+  .cetvrtaslika {
+    height: 600px;
+    width: 100%;
+    position: relative;
+  }
+  .trecicont,
+  .peticont {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 110px;
+    right: 100px;
+  }
+  .cetvrticont {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 130px;
+    left: 170px;
+  }
+
+  .grid {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 260px 260px 260px;
+    column-gap: 10px;
+    row-gap: 10px;
+    justify-content: center;
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .grid1 {
+    width: 260px;
+    height: 260px;
+  }
+  .ikone {
+    width: 320px;
+    height: 270px;
+    text-align: center;
+    font-size: 70px;
+
+    color: white;
+  }
+  .griddva {
+    padding-top: 900px;
+    display: grid;
+    grid-template-columns: 320px 320px 320px 320px;
+    column-gap: 30px;
+    row-gap: 30px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .trecicont,
+  .peticont {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    right: 30px;
+    top: 40px;
+  }
+
+  .cetvrticont {
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 30px;
+    top: 40px;
+  }
+  .naslov32,
+  .naslov42,
+  .naslov52 {
+    font-size: 40px;
+  }
+  .text3,
+  .text4,
+  .text5 {
+    font-size: 19px;
+  }
+  .nizcont {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .niz {
+    width: 350px;
+    height: 300px;
+  }
+  .contact {
+    position: absolute;
+    left: 25%;
+    top: 230px;
+    font-size: 30px;
+    color: white;
+  }
+  .button6 {
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+    margin-bottom: 50px;
+    background-color: white;
+    position: absolute;
+    left: 40%;
+    right: 47%;
+    top: 710px;
+    color: rgb(233, 108, 181);
+    font-style: bold;
+  }
+  .button6:hover {
+    background-color: lightgrey;
+  }
+}

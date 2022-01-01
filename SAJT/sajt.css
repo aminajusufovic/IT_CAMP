@@ -1,0 +1,272 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  width: 100%;
+}
+body {
+  width: 100%;
+}
+
+.prvaslika {
+  width: 100%;
+  height: 730px;
+}
+.prvicont {
+  position: relative;
+  height: 730px;
+}
+.cstudio {
+  color: white;
+  position: absolute;
+  top: 35px;
+  left: 5%;
+  font-size: 30px;
+  font-style: bold;
+}
+.cstories {
+  position: absolute;
+  bottom: 320px;
+  left: 20%;
+  right: 20%;
+  color: white;
+  font-size: 120px;
+  width: 900px;
+}
+
+.drugaslika {
+  width: 50%;
+  height: 680px;
+  margin-top: 0px;
+}
+
+.naslov3 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  color: rgb(72, 173, 204);
+}
+.naslov32 {
+  font-size: 65px;
+}
+.text3 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.button3 {
+  font-size: 20px;
+  padding: 15px;
+  border: 3px solid rgb(72, 173, 204);
+  margin-bottom: 50px;
+  background-color: white;
+}
+
+.button3:hover {
+  border: 3px solid white;
+}
+
+/*trecired*/
+.trecicont,
+.peticont {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  top: 110px;
+  right: 100px;
+}
+.cetvrticont {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  top: 130px;
+  left: 170px;
+}
+.trecaslika {
+  width: 50%;
+  height: 680px;
+  margin-top: 0px;
+}
+
+.naslov4 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  color: rgb(246, 250, 28);
+}
+.naslov42 {
+  font-size: 65px;
+}
+.text4 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.button4 {
+  font-size: 20px;
+  padding: 15px;
+  border: 3px solid rgb(246, 250, 28);
+  margin-bottom: 50px;
+  background-color: white;
+}
+.button4:hover {
+  border: 3px solid white;
+}
+
+/*cetvrtred*/
+
+.cetvrtaslika {
+  width: 50%;
+  height: 680px;
+  margin-top: 0px;
+}
+
+.naslov5 {
+  font-size: 30px;
+  margin-bottom: 5px;
+  color: rgb(233, 108, 181);
+}
+.naslov52 {
+  font-size: 65px;
+}
+.text5 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.button5 {
+  font-size: 20px;
+  padding: 15px;
+  border: 3px solid rgb(233, 108, 181);
+  margin-bottom: 50px;
+  background-color: white;
+}
+.button5:hover {
+  border: 3px solid white;
+}
+.nizcont {
+  display: flex;
+  width: 100%;
+}
+.niz {
+  width: 100%;
+  height: 300px;
+}
+/*.......................*/
+.nominacija {
+  width: 100%;
+  height: 350px;
+}
+.portfolio {
+  color: pink;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 25px;
+}
+.underportfolio {
+  text-align: center;
+  font-size: 55px;
+  font-style: bold;
+}
+.gridcont {
+  position: relative;
+  height: 800px;
+  width: 100%;
+}
+.grid {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: 360px 360px 360px;
+  column-gap: 10px;
+  row-gap: 10px;
+  justify-content: center;
+  position: absolute;
+  left: 10px;
+  right: 10px;
+}
+.grid1 {
+  height: 319px;
+  width: 100%;
+}
+.ikone {
+  width: 250px;
+  height: 300px;
+  text-align: center;
+  font-size: 70px;
+
+  color: white;
+}
+.griddva {
+  display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  column-gap: 30px;
+  justify-content: center;
+}
+.belina {
+  width: 100%;
+  position: relative;
+  margin-top: 100px;
+  height: 900px;
+}
+
+.contact {
+  position: absolute;
+  left: 38%;
+  top: 230px;
+  font-size: 40px;
+  color: white;
+}
+
+.inputjedan {
+  position: absolute;
+  bottom: 450px;
+  left: 30%;
+  right: 30px;
+}
+.inputdva {
+  position: absolute;
+  bottom: 380px;
+  left: 30%;
+  right: 30px;
+}
+.inputtri {
+  position: absolute;
+  top: 540px;
+  left: 30%;
+  right: 30px;
+}
+::placeholder {
+  color: rgb(231, 231, 231);
+}
+
+.button6 {
+  font-size: 20px;
+  padding: 15px;
+  border: none;
+  margin-bottom: 50px;
+  background-color: white;
+  position: absolute;
+  left: 47%;
+  right: 47%;
+  top: 710px;
+  color: rgb(233, 108, 181);
+  font-style: bold;
+}
+.button6:hover {
+  background-color: lightgrey;
+}
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(48, 48, 48);
+  position: relative;
+}
+
+.footer1 {
+  position: absolute;
+  left: 45%;
+  padding-top: 70px;
+  color: white;
+  font-size: 20px;
+}
