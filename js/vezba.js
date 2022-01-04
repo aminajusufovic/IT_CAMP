@@ -57,5 +57,22 @@
 //   console.log(d);
 // }
 // if (e > b && e > c && e > a && e > a) {
-//   console.log(e);
+//   console.log(e
+
+// for (var i = 0; i <= 15; i++) {
+//   if (i == 0) {
+//     console.log(i, "Ovaj broj je jednak nuli");
+//   } else if (i % 2 == 0) {
+//     console.log(i, "Ovaj broj je paran");
+//   } else {
+//     console.log(i, "Ovaj broj je neparan");
+//   }
 // }
+
+// var sum = 0;
+// for (var x = 0; x < 1000; x++) {
+//   if (x % 3 === 0 || x % 5 === 0) {
+//     sum += x;
+//   }
+// }
+// console.log(sum);
