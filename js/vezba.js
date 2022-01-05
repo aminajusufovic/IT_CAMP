@@ -71,8 +71,38 @@
 
 // var sum = 0;
 // for (var x = 0; x < 1000; x++) {
-//   if (x % 3 === 0 || x % 5 === 0) {
+//   if (x % 3 === 0 && x % 5 === 0) {
 //     sum += x;
 //   }
 // }
 // console.log(sum);
+
+// for (var i = 1; i <= 50; i++) {
+//   if (i % 3 === 0 && i % 5 === 0) {
+//     console.log(i, "fizzbuzz");
+//   } else if (i % 5 === 0) {
+//     console.log(i, "buzz");
+//   } else if (i % 3 === 0) {
+//     console.log(i, "fizz");
+//   } else {
+//     console.log(i);
+//   }
+// }
+
+// sum = 1;
+// x = prompt("Unesi broj");
+// for (let i = 1; i <= x; i++) {
+//   sum *= i;
+// }
+// console.log(sum);
+br1 = 1;
+br2 = 1;
+sum = 0;
+console.log(br1);
+console.log(br1);
+for (let i = 0; i <= 8; i++) {
+  sum = br1 + br2;
+  br1 = br2;
+  br2 = sum;
+  console.log(sum);
+}
