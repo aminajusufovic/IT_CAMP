@@ -95,14 +95,71 @@
 //   sum *= i;
 // }
 // console.log(sum);
-br1 = 1;
-br2 = 1;
-sum = 0;
-console.log(br1);
-console.log(br1);
-for (let i = 0; i <= 8; i++) {
-  sum = br1 + br2;
-  br1 = br2;
-  br2 = sum;
-  console.log(sum);
+
+// br1 = 1;
+// br2 = 1;
+// sum = 0;
+// console.log(br1);
+// console.log(br1);
+// for (let i = 0; i <= 8; i++) {
+//   sum = br1 + br2;
+//   br1 = br2;
+//   br2 = sum;
+//   console.log(sum);
+// }
+
+// i = 1;
+// j = 1;
+// var sum;
+// for (let i = 1; i <= 6; i++) {
+//   sum = "";
+//   for (let j = 1; j < i; j++) {
+//     sum += "*";
+//   }
+//   console.log(sum);}
+
+// for (let i = 0; i <= 10; i++) {
+//   var red = "";
+//   for (let j = 1; j <= 10; j++) {
+//     red += `${i * j}\t`;
+//   }
+//   console.log(red, "\n");
+// }
+
+// var pozTemp = 0;
+// var negTemp = 0;
+
+// var pozBr = 0;
+// var negBr = 0;
+
+// for (let i = 0; i < 10; i++) {
+//   t = Number(prompt("Unesite temp:"));
+//   if (t > 0) {
+//     pozBr++;
+//     poztemp += t;
+//   } else {
+//     negBr++;
+//     negTemp += t;
+//   }
+// }
+// console.log("Srednja pozitivna vrednost je", pozTemp / pozBr);
+// console.log("Srednja pozitivna vrednost je", negTemp / negBr);
+
+// rec = "ratar";
+// if (rec[0] === rec[4] && rec[1] === rec[3]) {
+//   console.log(" rec je palindrom");
+// } else {
+//   console.log("rec nije palindrom");
+// }
+
+rec = "ratar";
+for (let i = 0; i < Marh.floor(rec.length / 2); i++) {
+  if (rec[i] !== rec[rec.length - 1 - i]) {
+    console.log("rec nije palindrom");
+    break;
+  }
+
+  if (i === Math.floor(rec.length / 2) - 1) {
+    console.log("rec je palindrom");
+  }
 }
