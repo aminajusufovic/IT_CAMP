@@ -152,14 +152,24 @@
 //   console.log("rec nije palindrom");
 // }
 
-rec = "ratar";
-for (let i = 0; i < Marh.floor(rec.length / 2); i++) {
-  if (rec[i] !== rec[rec.length - 1 - i]) {
-    console.log("rec nije palindrom");
-    break;
-  }
+// rec = "ratar";
+// for (let i = 0; i < Marh.floor(rec.length / 2); i++) {
+//   if (rec[i] !== rec[rec.length - 1 - i]) {
+//     console.log("rec nije palindrom");
+//     break;
+//   }
 
-  if (i === Math.floor(rec.length / 2) - 1) {
-    console.log("rec je palindrom");
-  }
-}
+//   if (i === Math.floor(rec.length / 2) - 1) {
+//     console.log("rec je palindrom");
+//   }
+// }
+
+// x = 5;
+// y = 6;
+// z = x + y;
+
+// let x = 5;
+// let y = 5;
+// let z = 6;
+// (x == y)
+// (x == z)
