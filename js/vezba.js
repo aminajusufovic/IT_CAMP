@@ -153,7 +153,7 @@
 // }
 
 // rec = "ratar";
-// for (let i = 0; i < Marh.floor(rec.length / 2); i++) {
+// for (let i = 0; i < Math.floor(rec.length / 2); i++) {
 //   if (rec[i] !== rec[rec.length - 1 - i]) {
 //     console.log("rec nije palindrom");
 //     break;
@@ -164,12 +164,16 @@
 //   }
 // }
 
-// x = 5;
-// y = 6;
-// z = x + y;
+// let ans = 0;
+// for (let i = 999; i >= 100; i--) {
+//   for (let j = 999; j >= 100; j--) {
+//     let num = i * j;
+//     let s = String(num);
+//     let rs = s.split("").reverse().join("");
+//     if (s === rs) {
+//       ans = Math.max(ans, num);
+//     }
+//   }
+// }
 
-// let x = 5;
-// let y = 5;
-// let z = 6;
-// (x == y)
-// (x == z)
+// console.log(ans);
