@@ -177,3 +177,25 @@
 // }
 
 // console.log(ans);
+
+// lozinka = prompt("unesite lozinku");
+// while (lozinka < 10) {
+//   lozinka++;
+//   if (lozinka == "tajno") {
+//     console.log("lozinka je tacna");
+//   }
+//   break;
+// }
+
+// moja_lozinka = "sifra";
+// kor_lozinka = prompt("unesite lozinku");
+
+// while (moja_lozinka !== kor_lozinka) {
+//   kor_lozinka = prompt("Pogresna lozinka pokusajte ponovo:");
+// }
+// alert("tacna lozinka");
+
+// kor_unos = prompt("unesite broj u rasponu od 10-20");
+// while (kor_unos <= 20 && kor_unos >= 10) {
+//   console.log("cetitamo uneli ste broju rasponu", kor_unos);
+// }
