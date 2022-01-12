@@ -200,38 +200,54 @@
 //   console.log("cetitamo uneli ste broju rasponu", kor_unos);
 // }
 
-x = prompt(
-  "izaberite jednu od racunskih operacija:    1. (+)    2. (-)    3. (*)    4. (/)     5. (Izlaz iz programa)"
-);
-rezultat = 0;
-while ("1" === x) {
-  i = Number(prompt("Unesite prvi broj:"));
-  j = Number(prompt("Unesite drugi broj :"));
-  rezultat = i + j;
-  console.log("Zbir ova dva broja je", rezultat);
-  break;
-}
-while ("2" === x) {
-  i = Number(prompt("Unesite prvi broj:"));
-  j = Number(prompt("Unesite drugi broj :"));
-  rezultat = i - j;
-  console.log("Razlika ova dva broja je:", rezultat);
-  break;
-}
-while ("3" === x) {
-  i = Number(prompt("Unesite prvi broj:"));
-  j = Number(prompt("Unesite drugi broj :"));
-  rezultat = i * j;
-  console.log("Proizvod ova dva broja je:", rezultat);
-  break;
-}
-while ("4" === x) {
-  i = Number(prompt("Unesite prvi broj:"));
-  j = Number(prompt("Unesite drugi broj :"));
-  rezultat = i / j;
-  console.log("Kolicnik ova dva broja je:", rezultat);
-  break;
-}
-while ("5" === x) {
-  break;
-}
+// x = prompt(
+//   "izaberite jednu od racunskih operacija:    1. (+)    2. (-)    3. (*)    4. (/)     5. (Izlaz iz programa)"
+// );
+// rezultat = 0;
+// while ("1" === x) {
+//   i = Number(prompt("Unesite prvi broj:"));
+//   j = Number(prompt("Unesite drugi broj :"));
+//   rezultat = i + j;
+//   console.log("Zbir ova dva broja je", rezultat);
+//   break;
+// }
+// while ("2" === x) {
+//   i = Number(prompt("Unesite prvi broj:"));
+//   j = Number(prompt("Unesite drugi broj :"));
+//   rezultat = i - j;
+//   console.log("Razlika ova dva broja je:", rezultat);
+//   break;
+// }
+// while ("3" === x) {
+//   i = Number(prompt("Unesite prvi broj:"));
+//   j = Number(prompt("Unesite drugi broj :"));
+//   rezultat = i * j;
+//   console.log("Proizvod ova dva broja je:", rezultat);
+//   break;
+// }
+// while ("4" === x) {
+//   i = Number(prompt("Unesite prvi broj:"));
+//   j = Number(prompt("Unesite drugi broj :"));
+//   rezultat = i / j;
+//   console.log("Kolicnik ova dva broja je:", rezultat);
+//   break;
+// }
+// while ("5" === x) {
+//   break;
+// }
+
+// ucenici = [];
+// brUc = Number(prompt("broj ucenika"));
+// for (let i = 0; i < brUc; i++) {
+//   visUc = Number(prompt("Visina ucenika"));
+//   ucenici.push(visUc);
+// }
+
+// console.log(ucenici);
+
+////////////////////////////////////////////////
+// min = ucenici;
+// max = ucenici;
+// for (let i = 0; 0 < ucenici.length; i++) {
+//     if(max< ucenici[i])
+// }
