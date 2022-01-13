@@ -251,3 +251,21 @@
 // for (let i = 0; 0 < ucenici.length; i++) {
 //     if(max< ucenici[i])
 // }
+
+// sum = 0;
+// const niz = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// for (let i = 1; i <= niz.length; i++) {
+//   if (i % 2 === 0) {
+//     sum += i;
+//   }
+// }
+// console.log(sum);
+
+// sum = 0;
+// const niz = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// for (let i = 1; i <= niz.length; i++) {
+//   {
+//     sum = i * 3;
+//     console.log(sum);
+//   }
+// }
