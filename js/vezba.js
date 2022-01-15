@@ -261,11 +261,69 @@
 // }
 // console.log(sum);
 
-// sum = 0;
 // const niz = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // for (let i = 1; i <= niz.length; i++) {
-//   {
-//     sum = i * 3;
-//     console.log(sum);
-//   }
+//   niz[i] = niz[i] * 3;
 // }
+
+// console.log(niz[i]);
+
+// const nizJedan = [];
+// const nizDva = [1, 2, 3, 4, 5];
+// console.log(nizJedan);
+// console.log(nizDva);
+// for (i = 0; i < nizDva.length; i++) {
+//   nizJedan[i] = nizDva[i];
+//   nizDva[i] = [];
+// }
+// console.log(nizJedan);
+// console.log(nizDva);
+
+// niz1 = [1, 2, 3, 4, 5];
+// niz2 = [];
+// console.log(niz1);
+// console.log(niz2);
+// for (let i = 0; i < niz1.length; i++) {
+//   niz2.push(niz1[i]);
+// }
+// niz1 = [];
+
+// niz1 = [1, 2, 3, 4, 5];
+// niz2 = [];
+// nizl = niz1.length;
+
+// for (let i = 0; i < nizl; i++) {
+//   el = niz1.pop();
+//   niz2.unshift(el);
+// }
+// console.log(niz1);
+// console.log(niz2);
+
+// a = [
+//   [1, 2, 1, 24],
+//   [8, 11, 9, 4],
+//   [7, 0, 7, 21],
+//   [7, 4, 28, 21],
+//   [3, 10, 26, 7],
+// ];
+
+// for (let i = 0; i < a.length; i++) {
+//   console.log(a[i]);
+// }
+
+a = [
+  [1, 2, 1, 24],
+  [8, 11, 9, 4],
+  [7, 0, 7, 21],
+  [7, 4, 28, 21],
+  [3, 10, 26, 7],
+];
+for (let i = 0; i < a.length; i++) {
+  const row = a[i];
+  red = "";
+  for (let j = 0; j < row.length; j++) {
+    red += `${row[j]}[${i}]
+    } [${j}] \t`;
+  }
+  console.log(red);
+}
