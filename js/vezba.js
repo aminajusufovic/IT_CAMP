@@ -311,19 +311,98 @@
 //   console.log(a[i]);
 // }
 
-a = [
-  [1, 2, 1, 24],
-  [8, 11, 9, 4],
-  [7, 0, 7, 21],
-  [7, 4, 28, 21],
-  [3, 10, 26, 7],
-];
-for (let i = 0; i < a.length; i++) {
-  const row = a[i];
-  red = "";
-  for (let j = 0; j < row.length; j++) {
-    red += `${row[j]}[${i}]
-    } [${j}] \t`;
-  }
-  console.log(red);
-}
+// a = [
+//   [1, 2, 1, 24],
+//   [8, 11, 9, 4],
+//   [7, 0, 7, 21],
+//   [7, 4, 28, 21],
+//   [3, 10, 26, 7],
+// ];
+// for (let i = 0; i < a.length; i++) {
+//   const row = a[i];
+//   red = "";
+//   for (let j = 0; j < row.length; j++) {
+//     red += `${row[j]}[${i}]
+//     } [${j}] \t`;
+//   }
+//   console.log(red);
+// }
+
+// a = [
+//   [0, 2, 1, 24],
+//   [8, 0, 9, 4],
+//   [7, 0, 0, 27],
+//   [7, 4, 28, 0],
+// ];
+// // for (let i = 0; i < a.length; i++) {
+// //   console.log(a[i]);
+// // }
+// for (let i = 0; i < a.length; i++) {
+//   console.log(a[i]);
+// }
+
+// a = [
+//   [1, 2, 1, 24],
+//   [8, 11, 9, 4],
+//   [7, 0, 7, 21],
+//   [7, 4, 28, 21],
+//   [3, 10, 26, 7],
+// ];
+// for (let i = 0; i < a.length; i++) {
+//   const row = a[i];
+//   red = "";
+//   for (let j = 0; j < row.length; j++) {
+//     if (i + j === a.length - 1) {
+//       a[i][j] = "\\";
+//     }
+//     red += `${row[j]}[${i}]
+//     } [${j}] \t`;
+//   }
+//   console.log(red);
+// }
+
+// a = [
+//   [8, 11, 9, 4],
+//   [7, 0, 7, 21],
+//   [7, 4, 28, 21],
+//   [3, 10, 26, 7],
+// ];
+// for (let i = 0; i < a.length; i++) {
+//   for (let j = 0; j < a[i].length; j++) {
+//     if (i + j === a.length - 1) {
+//       a[i][j] = "\\";
+//     }
+//   }
+//   console.log(a[i]);
+// }
+
+// console.log(niz2.includes(niz1[0]));
+// console.log(niz2.includes(niz1[1]));
+// console.log(niz2.includes(niz1[2]));
+
+// niz1 = [1, 2, 3];
+// niz2 = [100, 2, 1, 10];
+// niz3 = [];
+// for (let i = 0; i < niz1.length; i++) {
+//   if (!niz2.includes(niz1[i])) {
+//     console.log("nalazi se", niz1[i]);
+//     niz3.push(niz1[i]);
+//   }
+// }
+// for (let i = 0; i < niz2.length; i++) {
+//   if (!niz1.includes(niz2[i])) {
+//     console.log("nalazi se", niz2[i]);
+//     niz3.push(niz2[i]);
+//   }
+// }
+// console.log(niz3);
+
+// niz1 = [1, 2, 3];
+// niz2 = [2, 30, 1];
+
+// for (let i = 0; i < niz1.length; i++) {
+//   if (!niz2.includes(niz1[i])) {
+//     niz2.push(niz1[i]);
+//   }
+// }
+// console.log(niz2);
