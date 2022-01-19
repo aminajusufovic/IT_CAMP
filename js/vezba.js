@@ -406,3 +406,14 @@
 //   }
 // }
 // console.log(niz2);
+
+arr = ["b", 6, "a", "q", 7, 2];
+arr1 = [];
+for (let i = 0; i < arr.length; i++) {
+  if (Number(arr[i])) {
+    arr1.unshift(arr[i]);
+  } else if (String(arr[i])) {
+    arr1.push(arr[i]);
+  }
+}
+console.log(arr1);
