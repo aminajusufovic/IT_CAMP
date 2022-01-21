@@ -407,13 +407,33 @@
 // }
 // console.log(niz2);
 
-arr = ["b", 6, "a", "q", 7, 2];
-arr1 = [];
-for (let i = 0; i < arr.length; i++) {
-  if (Number(arr[i])) {
-    arr1.unshift(arr[i]);
-  } else if (String(arr[i])) {
-    arr1.push(arr[i]);
+// arr = ["b", 6, "a", "q", 7, 2];
+// arr1 = [];
+// for (let i = 0; i < arr.length; i++) {
+//   if (Number(arr[i])) {
+//     arr1.unshift(arr[i]);
+//   } else if (String(arr[i])) {
+//     arr1.push(arr[i]);
+//   }
+// }
+// console.log(arr1);
+
+niz = [
+  ["a", 1, true],
+  ["b", 2, false],
+];
+nizResenje = [[], [], []];
+for (let i = 0; i < niz.length; i++) {
+  for (let j = 0; j < niz[i].length; j++) {
+    console.log(niz[i]);
+    console.log(niz[i][j]);
+    if (typeof niz[i][j] === "string") {
+      nizResenje[0].push(niz[i][j]);
+    } else if (typeof niz[i][j] === "number") {
+      nizResenje[1].push(niz[i][j]);
+    } else if (typeof niz[i][j] === "boolean") {
+      nizResenje[2].push(niz[i][j]);
+    }
   }
 }
-console.log(arr1);
+console.log(nizResenje);
