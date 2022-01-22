@@ -418,22 +418,36 @@
 // }
 // console.log(arr1);
 
-niz = [
-  ["a", 1, true],
-  ["b", 2, false],
-];
-nizResenje = [[], [], []];
-for (let i = 0; i < niz.length; i++) {
-  for (let j = 0; j < niz[i].length; j++) {
-    console.log(niz[i]);
-    console.log(niz[i][j]);
-    if (typeof niz[i][j] === "string") {
-      nizResenje[0].push(niz[i][j]);
-    } else if (typeof niz[i][j] === "number") {
-      nizResenje[1].push(niz[i][j]);
-    } else if (typeof niz[i][j] === "boolean") {
-      nizResenje[2].push(niz[i][j]);
-    }
+// niz = [
+//   ["a", 1, true],
+//   ["b", 2, false],
+// ];
+// nizResenje = [[], [], []];
+// for (let i = 0; i < niz.length; i++) {
+//   for (let j = 0; j < niz[i].length; j++) {
+//     console.log(niz[i]);
+//     console.log(niz[i][j]);
+//     if (typeof niz[i][j] === "string") {
+//       nizResenje[0].push(niz[i][j]);
+//     } else if (typeof niz[i][j] === "number") {
+//       nizResenje[1].push(niz[i][j]);
+//     } else if (typeof niz[i][j] === "boolean") {
+//       nizResenje[2].push(niz[i][j]);
+//     }
+//   }
+// }
+// console.log(nizResenje);
+
+function capitaliseString() {
+  let fox = "the quick brown fox";
+  let foxarr = fox.split(" ");
+  console.log(fox);
+  console.log(foxarr);
+  for (i = 0; i < foxarr.length; i++) {
+    foxarr[0] = foxarr[0].toUpperCase();
   }
+  let foxarr = fox.join("");
+  console.log(foxarr);
 }
-console.log(nizResenje);
+
+capitaliseString();
