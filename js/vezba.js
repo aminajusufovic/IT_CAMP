@@ -438,16 +438,23 @@
 // }
 // console.log(nizResenje);
 
-function capitaliseString() {
-  let fox = "the quick brown fox";
-  let foxarr = fox.split(" ");
-  console.log(fox);
-  console.log(foxarr);
-  for (i = 0; i < foxarr.length; i++) {
-    foxarr[0] = foxarr[0].toUpperCase();
-  }
-  let foxarr = fox.join("");
-  console.log(foxarr);
+// function capitaliseString() {
+//   let fox = "the quick brown fox";
+//   let foxarr = fox.split(" ");
+//   console.log(fox);
+//   console.log(foxarr);
+//   for (i = 0; i < foxarr.length; i++) {
+//     foxarr[0] = foxarr[0].toUpperCase();
+//   }
+//   let foxarr = fox.join("");
+//   console.log(foxarr);
+// }
+
+// capitaliseString();
+
+unos = prompt("unesite vase ime");
+function ime(unos) {
+  console.log("Vase ime je", unos);
 }
 
-capitaliseString();
+ime(unos);
