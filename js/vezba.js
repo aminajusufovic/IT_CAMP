@@ -452,9 +452,13 @@
 
 // capitaliseString();
 
-unos = prompt("unesite vase ime");
-function ime(unos) {
-  console.log("Vase ime je", unos);
-}
+// unos = prompt("unesite vase ime");
+// function ime(unos) {
+//   console.log("Vase ime je", unos);
+// }
 
-ime(unos);
+// ime(unos);
+
+function twiceAsOld(dadYearsOld, sonYearsOld) {
+  return Math.abs(dadYearsOld - 2 * sonYearsOld);
+}
