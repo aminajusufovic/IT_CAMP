@@ -505,12 +505,34 @@
 
 // nule([3, 0, 24, 54, 0, 123, 0, 32, 63]);
 
-function prosek(niz) {
-  sum = 0;
-  for (el of niz) {
-    sum += el;
+// function prosek(niz) {
+//   sum = 0;
+//   for (el of niz) {
+//     sum += el;
+//   }
+//   console.log("prosek je", sum / niz.length);
+// }
+
+// prosek([3, 24, 54, 123, 32, 63]);
+
+// function poweroftwo(n) {
+//   pomArr = [];
+//   for (let i = 0; i <= n; i++) {
+//     pomArr.push(2 ** i);
+//   }
+//   return pomArr;
+// }
+
+// rez = poweroftwo(3);
+// console.log(rez);
+
+function reverseSeq(n) {
+  niz = [];
+  for (let i = n; i > 0; i--) {
+    niz.push(i);
   }
-  console.log("prosek je", sum / niz.length);
+  return niz;
 }
 
-prosek([3, 24, 54, 123, 32, 63]);
+rez = reverseSeq(5);
+console.log(rez);
