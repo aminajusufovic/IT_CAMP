@@ -548,13 +548,19 @@
 // rez = pillars(2, 20, 25);
 // console.log(pillars(2, 20, 25));
 
-function pillars(numpill, dist, width) {
-  for (let i = 1; i < numpill; i++) {
-    dist = dist + width;
-    re = dist - 2 * width;
-  }
-  return dist;
+// function pillars(numpill, dist, width) {
+//   for (let i = 1; i < numpill; i++) {
+//     dist = dist + width;
+//     re = dist - 2 * width;
+//   }
+//   return dist;
+// }
+
+// rez = pillars(2, 20, 25);
+// console.log(pillars(2, 20, 25));
+
+function symmetricPoint(p, q) {
+  return [2 * q[0] - p[0], 2 * q[1] - p[1]];
 }
 
-rez = pillars(2, 20, 25);
-console.log(pillars(2, 20, 25));
+const iceBrickVolume = (r, x, y) => 2 * r * r * (x - y);
