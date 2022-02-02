@@ -526,13 +526,35 @@
 // rez = poweroftwo(3);
 // console.log(rez);
 
-function reverseSeq(n) {
-  niz = [];
-  for (let i = n; i > 0; i--) {
-    niz.push(i);
+// function reverseSeq(n) {
+//   niz = [];
+//   for (let i = n; i > 0; i--) {
+//     niz.push(i);
+//   }
+//   return niz;
+// }
+
+// rez = reverseSeq(5);
+// console.log(rez);
+
+// function pillars(numpill, dist, width) {
+//   for (let i = 1; i < numpill; i++) {
+//     dist = dist + width;
+//     re = dist - 2 * width;
+//   }
+//   return dist;
+// }
+
+// rez = pillars(2, 20, 25);
+// console.log(pillars(2, 20, 25));
+
+function pillars(numpill, dist, width) {
+  for (let i = 1; i < numpill; i++) {
+    dist = dist + width;
+    re = dist - 2 * width;
   }
-  return niz;
+  return dist;
 }
 
-rez = reverseSeq(5);
-console.log(rez);
+rez = pillars(2, 20, 25);
+console.log(pillars(2, 20, 25));
