@@ -559,8 +559,95 @@
 // rez = pillars(2, 20, 25);
 // console.log(pillars(2, 20, 25));
 
-function symmetricPoint(p, q) {
-  return [2 * q[0] - p[0], 2 * q[1] - p[1]];
-}
+// function symmetricPoint(p, q) {
+//   return [2 * q[0] - p[0], 2 * q[1] - p[1]];
+// }
 
-const iceBrickVolume = (r, x, y) => 2 * r * r * (x - y);
+// const iceBrickVolume = (r, x, y) => 2 * r * r * (x - y);
+
+// function stray(niz) {
+//   min1 = niz[0];
+//   for (el of niz) {
+//     if (el !== min1) {
+//       min1 = el;
+//     }
+//   }
+//   console.log(min1);
+// }
+
+// stray([1, 1, 1, 2]);
+
+// function stray(numbers) {
+//   num = 0;
+//   if (numbers[0] !== numbers[1] && numbers[0] !== numbers[2]) {
+//     num = numbers[0];
+//   }
+//   if (
+//     numbers[numbers.length - 1] !== numbers[numbers.lenght - 2] &&
+//     numbers[numbers.length - 1] !== numbers[numbers.lenght - 3]
+//   ) {
+//     num = numbers[numbers.lenght - 1];
+//   }
+//   for (let i = 1; i < numbers.length - 1; i++) {
+//     if (numbers[i] !== numbers[i - 1] && numbers[i] !== numbers[i + 1]) {
+//       num = numbers[i];
+//       break;
+//     }
+//   }
+//   return num;
+// }
+// console.log(stray([1, 1, 2, 1, 1, 1, 1]));
+// console.log(stray([1, 1, 1, 1, 1, 1, 1, 17, 1, 1, 1]));
+// console.log(stray([1, 1, 1, 1, 1, 1, 1]));
+
+// shelly +amina = bff HAHAHAHHAHHAHAHAHHAHAH
+
+// function findLargestSumPair(arr) {
+//   let first, second;
+
+//   if (arr[0] > arr[1]) {
+//     first = arr[0];
+//     second = arr[1];
+//   } else {
+//     first = arr[1];
+
+//     second = arr[0];
+//   }
+
+//   for (let i = 2; i < arr.length; i++) {
+//     if (arr[i] > first) {
+//       second = first;
+
+//       first = arr[i];
+//     } else if (arr[i] > second && arr[i] != first) second = arr[i];
+//   }
+//   return first + second;
+// }
+
+// function sortiranje() {
+//   niz = [3, 44, 5, 47, 15, 36, 26, 27, 2, 46, 4, 19, 50, 48];
+
+//   for (let i = 0; i < niz.length; i++) {
+//     for (let j = i + 1; j <= 0; j--) {
+//       if (niz[j] < niz[j - 1]) {
+//         let pomVar = niz[j];
+//         niz[j] = niz[j - 1];
+//         niz[n - 1] = pomVar;
+//       } else {
+//         break;
+//       }
+//     }
+//   }
+// }
+
+// console.log(niz(niz.length - 1));
+// console.log(niz(niz.length - 2));
+
+function nbYear(p0, percent, aug, p) {
+  let n = 0;
+  while (p0 < p) {
+    p0 = p0 + (p0 * percent) / 100 + aug;
+    n = n + 1;
+  }
+  return n;
+}
