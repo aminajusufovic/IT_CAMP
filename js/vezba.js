@@ -643,11 +643,11 @@
 // console.log(niz(niz.length - 1));
 // console.log(niz(niz.length - 2));
 
-function nbYear(p0, percent, aug, p) {
-  let n = 0;
-  while (p0 < p) {
-    p0 = p0 + (p0 * percent) / 100 + aug;
-    n = n + 1;
-  }
-  return n;
-}
+// function nbYear(p0, percent, aug, p) {
+//   let n = 0;
+//   while (p0 < p) {
+//     p0 = p0 + (p0 * percent) / 100 + aug;
+//     n = n + 1;
+//   }
+//   return n;
+// }
