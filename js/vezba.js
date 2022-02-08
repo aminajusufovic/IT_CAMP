@@ -652,3 +652,9 @@
 //   return n;
 // }
 //////////////////////////////
+//objekat je grupisanje nekih vrednosti
+
+covek1 = {
+    name: "amina",
+    surmane = "jusufovic",
+}
