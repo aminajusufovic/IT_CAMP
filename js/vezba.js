@@ -655,6 +655,11 @@
 //objekat je grupisanje nekih vrednosti
 
 covek1 = {
-    name: "amina",
-    surmane = "jusufovic",
-}
+  name: "amina",
+  surname: "jusufovic",
+  job: function () {
+    console.log("doing some job");
+  },
+};
+console.log(Object.keys(covek1));
+console.log(covek1.name);
