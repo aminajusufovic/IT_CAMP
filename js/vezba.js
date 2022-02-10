@@ -654,12 +654,67 @@
 //////////////////////////////
 //objekat je grupisanje nekih vrednosti
 
-covek1 = {
-  name: "amina",
-  surname: "jusufovic",
-  job: function () {
-    console.log("doing some job");
-  },
+// covek1 = {
+//   name: "amina",
+//   surname: "jusufovic",
+//   job: function () {
+//     console.log("doing some job");
+//   },
+// };
+// console.log(Object.keys(covek1));
+// console.log(covek1.name);
+
+// var student = {
+//   name: "David Rey",
+//   sclass: "VI",
+//   rollno: 12,
+// };
+
+// console.log(Object.keys(student));
+
+// class Car {
+//   constructor(name, year) {
+//     this.name = name;
+//     this.year = year;
+//   }
+//   age() {
+//     let date = new Date();
+//     return date.getFullYear() - this.year;
+//   }
+// }
+
+// c1 = new Car("audi", 2019);
+// console.log(c1);
+// console.log(c1.age());
+
+// class Macka {
+//   constructor(name, year, color, weight) {
+//     this.name = name;
+//     this.year = year;
+//     this.color = color;
+//     this.weight = weight;
+//   }
+// }
+
+// m1 = new Macka("Cici", 2022, "siva", "1kg");
+// console.log(m1);
+
+// m2 = new Macka("Kiki", 2018, "narandzasta", "3kg");
+// console.log(m2);
+
+// m3 = new Macka("Nini", 2015, "crna", "5kg");
+// console.log(m3);
+
+o1 = {
+  name: "Amina",
+  surname: "Jusufovic",
 };
-console.log(Object.keys(covek1));
-console.log(covek1.name);
+o2 = {};
+let flatObj = Object.entries(o1);
+for (let i = 0; i < Object.entries.length; i++) {
+  console.log(flatObj[i]);
+  o2[flatObj[i][1]] = flatObj[i][0];
+}
+
+console.log(o1);
+console.log(o2);
