@@ -814,26 +814,31 @@
 
 // console.log(bl.bookShelf);
 
-class Macka
-{
-  constructor(tiredness, lonliness, hunger, happiness)
-  {
-    this.tiredness = tiredness;
-    this.lonliness = lonliness;
-    this.hunger = hunger;
-    this.happiness = happiness;
-  },
- igranje: function()
-{
-  hunger += 5;
-  
-  
-    
-  },
+// class Macka
+// {
+//   constructor(tiredness, lonliness, hunger, happiness)
+//   {
+//     this.tiredness = tiredness;
+//     this.lonliness = lonliness;
+//     this.hunger = hunger;
+//     this.happiness = happiness;,
+//   },
+//  igranje: function()
+// {
+//   hunger += 5;
+
+//   },
+// }
+
+// m1 = new Macka("");
+// console.log(m1);
+
+// m2 = new Macka();
+// console.log(m2);
+
+const data ={
+    a: 1;
+    b: 2;
+
 }
-
-m1 = new Macka("");
-console.log(m1);
-
-m2 = new Macka();
-console.log(m2);
+console.log(object.entries(data));
