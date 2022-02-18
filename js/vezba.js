@@ -855,46 +855,46 @@
 // }
 // console.log(withouth({ a: 1, b: 2 }, "b"));
 
-var library = [
-  {
-    author: "Bill Gates",
-    title: "The road ahead",
-    readingStatus: true,
-    age: 29,
-  },
-  {
-    author: "Bill Gates",
-    title: "The road ahead",
-    readingStatus: true,
-    age: 14,
-  },
-  {
-    author: "Bill Gates",
-    title: "The road ahead",
-    readingStatus: true,
-    age: 25,
-  },
-  {
-    author: "Bill Gates",
-    title: "The road ahead",
-    readingStatus: true,
-    age: 19,
-  },
-  {
-    author: "Bill Gates",
-    title: "The road ahead",
-    readingStatus: true,
-    age: 12,
-  },
-];
-function godine(arr) {
-  rez = [];
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i].age < 18) {
-      rez.push(arr[i]);
-    }
-  }
-  return rez;
-}
+// var library = [
+//   {
+//     author: "Bill Gates",
+//     title: "The road ahead",
+//     readingStatus: true,
+//     age: 29,
+//   },
+//   {
+//     author: "Bill Gates",
+//     title: "The road ahead",
+//     readingStatus: true,
+//     age: 14,
+//   },
+//   {
+//     author: "Bill Gates",
+//     title: "The road ahead",
+//     readingStatus: true,
+//     age: 25,
+//   },
+//   {
+//     author: "Bill Gates",
+//     title: "The road ahead",
+//     readingStatus: true,
+//     age: 19,
+//   },
+//   {
+//     author: "Bill Gates",
+//     title: "The road ahead",
+//     readingStatus: true,
+//     age: 12,
+//   },
+// ];
+// function godine(arr) {
+//   rez = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i].age < 18) {
+//       rez.push(arr[i]);
+//     }
+//   }
+//   return rez;
+// }
 
-console.log(godine(library));
+// console.log(godine(library));
