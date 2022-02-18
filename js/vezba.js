@@ -836,9 +836,65 @@
 // m2 = new Macka();
 // console.log(m2);
 
-const data ={
-    a: 1;
-    b: 2;
+// o1 = {
+//   a: 1,
+//   b: 2,
+// };
+// console.log(object.entries(o1));
 
+// const data = {
+//   a: 1,
+//   b: 2,
+// };
+
+// console.log(data);
+
+// function withouth(data, prop) {
+//   delete data[prop];
+//   return data;
+// }
+// console.log(withouth({ a: 1, b: 2 }, "b"));
+
+var library = [
+  {
+    author: "Bill Gates",
+    title: "The road ahead",
+    readingStatus: true,
+    age: 29,
+  },
+  {
+    author: "Bill Gates",
+    title: "The road ahead",
+    readingStatus: true,
+    age: 14,
+  },
+  {
+    author: "Bill Gates",
+    title: "The road ahead",
+    readingStatus: true,
+    age: 25,
+  },
+  {
+    author: "Bill Gates",
+    title: "The road ahead",
+    readingStatus: true,
+    age: 19,
+  },
+  {
+    author: "Bill Gates",
+    title: "The road ahead",
+    readingStatus: true,
+    age: 12,
+  },
+];
+function godine(arr) {
+  rez = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].age < 18) {
+      rez.push(arr[i]);
+    }
+  }
+  return rez;
 }
-console.log(object.entries(data));
+
+console.log(godine(library));
