@@ -899,25 +899,25 @@
 
 // console.log(godine(library));
 
-function wash(callback) {
-  setTimeout(function () {
-    console.log("wash");
-    callback();
-  }, 3000);
-}
+// function wash(callback) {
+//   setTimeout(function () {
+//     console.log("wash");
+//     callback();
+//   }, 3000);
+// }
 
-function dry(callback) {
-  setTimeout(function () {
-    console.log("dry");
-    callback();
-  }, 3000);
-}
+// function dry(callback) {
+//   setTimeout(function () {
+//     console.log("dry");
+//     callback();
+//   }, 3000);
+// }
 
-function fold(callback) {
-  setTimeout(function () {
-    console.log("fold");
-    callback();
-  }, 3000);
-}
+// function fold(callback) {
+//   setTimeout(function () {
+//     console.log("fold");
+//     callback();
+//   }, 3000);
+// }
 
-doLaudry([wash, dry, fold]);
+// doLaudry([wash, dry, fold]);
