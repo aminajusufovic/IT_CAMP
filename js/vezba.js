@@ -866,12 +866,115 @@
 // });
 // console.log(myArray);
 
-data = [NaN, 0, 15, false, -22, "", undefined, 47, null];
-let counter = 0;
-data.forEach((element) => {
-  if (!element) {
-    counter++;
-  }
-});
+// data = [NaN, 0, 15, false, -22, "", undefined, 47, null];
+// let counter = 0;
+// data.forEach((element) => {
+//   if (!element) {
+//     counter++;
+//   }
+// });
 
-console.log(counter);
+// console.log(counter);
+
+// const persons = [
+//     {firstname : "Malcom", lastname: "Reynolds"},
+//     {firstname : "Kaylee", lastname: "Frye"},
+//     {firstname : "Jayne", lastname: "Cobb"}
+//   ];
+//  console.log(persons);
+
+//   function getFullName(item) {
+//     return [item.firstname,item.lastname].join(" ");
+//   };
+
+//map - koristimo kad hocemo da uradimo nesto na svim elementima, pravi novi niz sa istim brojem el, koliko ima el u stari niz , toliko mora da ima i unovi niz
+// izdvaja neke elemente iz niza
+
+//filter - pravi novi niz, popunjava ga elementima koji ispunjavju uslov
+
+//foreach - kada nesto treba da pomnozimo, podelimo
+
+// const cars = ["BMW", 123, false, "Sab", 12.5, "Jps jedan element"]
+
+// arr1 = cars.map((el) => {
+// return el + "novi el"
+// });
+
+// console.log(arr1);
+
+//const cars = ["BMW", 123, false, "Sab", 12.5, "Jps jedan element"]
+
+// arr1  = cars.map((el) => {
+// if (typeof el === "number") {
+//     return el;
+// }
+// });
+
+// arr2  = cars.map((el) => {
+//     if (typeof el === "number") {
+//         return el;
+//     }
+// });
+// console.log(arr1);
+// console.log(arr2);
+
+// some - da li makar jedan el u nizu ispunjava dati uslov
+
+// arr1 = [1, 2, 3, 4, 5, 5, 7, 6, 5, 5, 5, 5, 5];
+
+// res = arr1.some((el) => {
+// return el > 6;
+// });
+
+// //every - da svaki element ispuni uslov
+
+// res2 = arr1.every((el) => {
+//     return el > 0;
+//     });
+
+// // console.log(arr1);
+// // console.log(res);
+// // console.log(res2);
+
+// if (
+//     !arr1.every((el) => {
+//         return el < 1
+//     })
+// ) {
+//     console.log("ne ispunjavaju svi elementi dati uslov");
+// }else {
+//     console.log("ispunjavaju svi elementi dati uslov");
+// }
+
+// const array = [1, 2, 3, 4];
+
+// // 0 + 1 + 2 + 3 + 4
+
+// const sumWithInitial = array.reduce((previousValue, currentValue) => {
+//     if (currentValue % 2 === 0) {
+//         return previousValue + 1;
+//     } else {
+//         return previousValue;
+//     }
+// }, 0);
+
+// console.log(sumWithInitial);
+// // expected output: 10
+
+// function findMissing(arr1, arr2) {
+//     arr2.forEach((el) => {
+//         if (arr1.includes(el)) {
+//             arr1.splice(arr1.indexOf(el), 1);
+//         }
+//     });
+
+//     return arr1[0];
+// }
+
+// res = findMissing([6, 1, 3, 6, 8, 2], [3, 6, 6, 1, 2]);
+// res2 = findMissing([4, 3, 3, 61, 8, 8], [8, 61, 8, 3, 4]);
+
+// console.log(res);
+// console.log(res2);
+
+// console.log(findMissing([0, 0, 0, 0, 0], [0, 0, 0, 0]),);
