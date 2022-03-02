@@ -994,3 +994,13 @@
 // });
 
 // console.log(heros2);
+
+// function job() {
+//   return "hello world";
+// }
+// var mypromise = new Promise((resolve, reject) => {
+//   resolve(job());
+// });
+// mypromise.then((val) => {
+//   console.log(val);
+// });
