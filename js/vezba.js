@@ -993,14 +993,159 @@
 //   };
 // });
 
-console.log(heros2);
+// console.log(heros2);
 
-function job() {
-  return "hello world";
-}
-var mypromise = new Promise((resolve, reject) => {
-  resolve(job());
-});
-mypromise.then((val) => {
-  console.log(val);
-});
+// function job() {
+//   return "hello world";
+// }
+// var mypromise = new Promise((resolve, reject) => {
+//   resolve(job());
+// });
+// mypromise.then((val) => {
+//   console.log(val);
+// });
+//function job() {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       resolve("hello world");
+//     }, 2000);
+//   });
+// }
+// job().then((res) => {
+//   console.log(res);
+// });
+
+//map-vraca niz iste duzine, mora da bude isti lenght
+//lastIndexOf-daje nam indekse
+//data.find- vraca prvi elemnt koji ispunjava ovaj uslov
+//data.map- primeni funkciju i vrati novi niz;
+//data.filter-dobija funkciju,  na osnovu uslova on nama taj el vraca;
+//ukoliko ispunjava uslov dodaje se u noviniz
+//data.every-saljemo funkciju, vraca nam da li svi el u nizu ispunjavaju uslov true/false
+//data. some-da li barem jedan el ispunjava  uslov niz, vraca true ili false
+//forEach-metoda niza-dobija funkciju-kao for petlja-za svaki element izvrsi ovu funkciju
+//algoritam-sort
+
+//metoda niza koja prosledjuje funkciju
+//callback
+
+//asinhroni Javascript se sastoji od:
+//call stack
+//web api
+//que
+//
+//saljemo funk kao argument i pozivamo na kraju
+
+// var miles = Number(prompt("Unesite vrednost milja:"));
+// const per = 0.6214;
+// var kilometers = Math.floor(miles / per);
+// console.log(miles + " mi iznosi:", kilometers + " km");
+//promise-odg +-====pending=cekanje
+//resolve=uspesno
+//reject= neuspesno
+
+//emedientli evolve
+//promises
+//callback=posaljemo funk u argument
+//then= nakon izvrsenog posla izvrsi
+//catch
+//finally=radi neki posao uvekk
+//chaining
+//develeoper mozzila using promises
+//nested promise chain= promesise sa 2 then-a
+//promise ide u micro task, kao vazniji
+
+//all= funkcija
+//prosledjvanje 2 pr kao argument
+
+// // [promise1, promise2, pormise3]
+// Promise.all().then(() => {
+//   console.log("promise all");
+// });
+//pitaju na interviju!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+// Promise.resolve("prvi korak")
+//   .then((arg1) => {
+//     console.log(arg1);
+//     return "drugi korak";
+//   })
+//   .then((value) => {
+//     value.split("").forEach((l) => {
+//       console.log(l);
+//     });
+//     return value.slice(1);
+//   })
+//   .then((arg) => {
+//     let var1 = 0;
+//     console.log(var1 + arg.length * 5);
+//   });
+
+// async= vraca se direkt promise
+//  await
+// //typeOf
+// async function some() {
+//   return "prvi korak";
+// }
+
+// some()
+//   .then((arg1) => {
+//     console.log(arg1);
+//     return "drugi korak";
+//   })
+//   .then((value) => {
+//     value.split("").forEach((l) => {
+//       console.log(l);
+//     });
+//     return value.slice(1);
+//   })
+//   .then((arg) => {
+//     let var1 = 0;
+//     console.log(var1 + arg.length * 5);
+//   });
+
+//ovo sto sam slikala dodajem na to try catch
+
+//shadow copy x deep copy
+//proxi dns
+//http-protokol
+//DOM pravimo app
+//objekti, nizove struk podata setovi hash mapa, metoda niza
+//try catch
+
+//all= izbaciju niz ako su resolve a izbacujr rjecet za 1 koji je reject
+//race=prvo pr koji uradi svoj posao ide na catch
+//news= prvi koji se resolva ide na then
+//allSettled()
+//throw
+//iffie
+
+// try {
+//   try {
+//     throw new Error("oops");
+//   } catch (ex) {
+//     console.error("inner", ex.message);
+//     throw ex;
+//   } finally {
+//     console.log("finally");
+//   }
+// } catch (ex) {
+//   console.error("outer", ex.message);
+// }
+
+// p-protokol-radnja po precizno odredjenim koracima
+//http- sastoji se od metoda za trazenje
+//http se sastoji iz dve osnovne radnje - request i response
+//2 delA Ima head i body
+//local host
+//get i post najkorisceniji
+//post-body.................put and patch
+//get-da uzmemo podate i da dobijemo response
+//request= u zavisnoti od metoda= metoda get head post put delete
+//request= header and body- stavljamo informacije da bismo dobili odgovor
+//response= header and body
+//statusni kod, http internet protokoli
+//https-
+//statusni kod-5-standard odgovora, kad dobijemo response prvo proveravamo koji je status kod
+
+//promise radimo rucno pravimo request and response do
+//web socket
