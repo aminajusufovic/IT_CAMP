@@ -1147,5 +1147,5 @@
 //https-
 //statusni kod-5-standard odgovora, kad dobijemo response prvo proveravamo koji je status kod
 
-//promise radimo rucno pravimo request and response do
+promise radimo rucno pravimo request and response do
 //web socket
