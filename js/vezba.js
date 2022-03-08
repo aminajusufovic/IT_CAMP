@@ -1132,20 +1132,20 @@
 //   console.error("outer", ex.message);
 // }
 
-// p-protokol-radnja po precizno odredjenim koracima
-//http- sastoji se od metoda za trazenje
-//http se sastoji iz dve osnovne radnje - request i response
-//2 delA Ima head i body
-//local host
-//get i post najkorisceniji
-//post-body.................put and patch
-//get-da uzmemo podate i da dobijemo response
-//request= u zavisnoti od metoda= metoda get head post put delete
-//request= header and body- stavljamo informacije da bismo dobili odgovor
-//response= header and body
-//statusni kod, http internet protokoli
-//https-
-//statusni kod-5-standard odgovora, kad dobijemo response prvo proveravamo koji je status kod
+// // p-protokol-radnja po precizno odredjenim koracima
+// //http- sastoji se od metoda za trazenje
+// //http se sastoji iz dve osnovne radnje - request i response
+// //2 delA Ima head i body
+// //local host
+// //get i post najkorisceniji
+// //post-body.................put and patch
+// //get-da uzmemo podate i da dobijemo response
+// //request= u zavisnoti od metoda= metoda get head post put delete
+// //request= header and body- stavljamo informacije da bismo dobili odgovor
+// //response= header and body
+// //statusni kod, http internet protokoli
+// //https-
+// //statusni kod-5-standard odgovora, kad dobijemo response prvo proveravamo koji je status kod
 
-promise radimo rucno pravimo request and response do
-//web socket
+// promise radimo rucno pravimo request and response do
+// //web socket
