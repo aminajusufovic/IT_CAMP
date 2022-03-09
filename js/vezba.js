@@ -1149,3 +1149,28 @@
 
 // promise radimo rucno pravimo request and response do
 // //web socket
+
+// fetch("https://catfact.ninja/facts")
+//   .then((response) => {
+//     return response.json();
+//   })
+//   .then((response) => {
+//     console.log(response);
+//   })
+//   .catch(() => {
+//     console.log("greska sa serverom");
+//   });
+
+// async function getData() {
+//   const response = await fetch("https://catfact.ninja/facts");
+//   const resJson = await response.json();
+//   console.log(resJson);
+// }catch(err){console.log("PROBLEM SA SERVEROM");}
+// getData();
+
+async function getData() {
+  const response = await fetch("https://jsonplaceholder.typicode.com/users");
+  const resJson = await response.json();
+  console.log(resJson);
+}
+getData();
