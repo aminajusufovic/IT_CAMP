@@ -1150,6 +1150,33 @@
 // promise radimo rucno pravimo request and response do
 // //web socket
 
+// const myProm = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     resolve(undefined);
+//   }, 2000);
+// });
+
+// function handlerError() {
+//   console.log("DESI SE NEKI error");
+//   console.log("aksndjaslsadlsan");
+//   console.log("aksndjaslsadlsan");
+//   console.log("ERROR JE HANDLED");
+// }
+
+// async function getData() {
+//   try {
+//     const users = await myProm;
+
+//     users.map((el) => {
+//       console.log(el);
+//     });
+//   } catch (err) {
+//     handlerError();
+//   }
+// }
+
+// getData();
+
 // fetch("https://catfact.ninja/facts")
 //   .then((response) => {
 //     return response.json();
@@ -1168,8 +1195,15 @@
 // }catch(err){console.log("PROBLEM SA SERVEROM");}
 // getData();
 
+// async function getData() {
+//   const response = await fetch("https://jsonplaceholder.typicode.com/users");
+//   const resJson = await response.json();
+//   console.log(resJson);
+// }
+// getData();
+
 async function getData() {
-  const response = await fetch("https://jsonplaceholder.typicode.com/users");
+  const response = await fetch("https://catfact.ninja/facts");
   const resJson = await response.json();
   console.log(resJson);
 }
