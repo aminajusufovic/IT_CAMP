@@ -1188,7 +1188,7 @@
 //     console.log("greska sa serverom");
 //   });
 
-// async function getData() {
+// async function getData(){ try{
 //   const response = await fetch("https://catfact.ninja/facts");
 //   const resJson = await response.json();
 //   console.log(resJson);
