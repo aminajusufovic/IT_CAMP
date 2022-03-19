@@ -5,65 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <style>
-      .container {
-        display: flex;
-        flex-direction: row;
-        position: absolute;
-        top: 600px;
-        left: 600px;
-      }
-      .cont1,
-      .cont2,
-      .cont3,
-      .cont4,
-      .cont5 {
-        padding-left: 10px;
-        padding-top: 10px;
-        padding-right: 10px;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <div class="cont0"><p>Previous</p></div>
-      <div class="cont1"><a href="cont1.html">1</a></div>
-      <div class="cont2"><a href="cont2.html">2</a></div>
-      <div class="cont3"><a href="cont3.html">3</a></div>
-      <div class="cont4"><a href="cont4.html">4</a></div>
-      <div class="cont5"><a href="cont5.html">5</a></div>
-      <div class="cont6"><p>Next</p></div>
-    </div>
-    <script>
-      function generateCard(vals) {
-        var subDiv = document.createElement("div");
-        subDiv.style.width = "200px";
-        subDiv.style.height = "300px";
-        subDiv.style.backgroundColor = "orange";
-        subDiv.style.border = "solid 1px black";
-        subDiv.style.borderRadius = "10px";
-        subDiv.style.margin = "10px";
-        subDiv.innerHTML = vals.fact;
-        return subDiv;
-      }
+    <link rel="stylesheet" href="jsc.css" />
+    
+      <body>
+        <div class="container">
+          <form>
+            <div>
+              <p>Unesite Email</p>
+              <input id="email"  name = "email"type="email">
+            </div>
+            <div>
+              <p>Unesite Ime</p>
+              <input  id="name" name="name" type="text">
+            </div>
+            <div>
+              <p>Unesite sifru </p>
+              <input  id="password" name ="password"type="password">
+            </div>
+            <div>
+              <p>Unesite Username</p>
+              <input id="user" name = "user" type="text">
+            </div>
+            <div>
+              <button id = "event-btn" type="submit">Event</button>
+            </div>
+          </form>
 
-      var src = document.getElementById("moj_div");
-      src.style.display = "flex";
-      src.style.justifyContent = "flex-start";
-      src.style.flexWrap = "wrap";
+        </div>
+        <script>
+       var eBtn = document.getElementById("event-btn")
+       eBtn.addEventListener("click", (e) => {
+         e.preventDefault()
+         const user = {
+         [e.target.form[0].name]:e.target.form[0].value,
+         [e.target.form[1].name]:e.target.form[1].value,
+         [e.target.form[2].name]:e.target.form[2].value,
+         [e.target.form[3].name]:e.target.form[3].value,
+         }
 
-      fetch("https://catfact.ninja/facts")
-        .then((res) => {
-          return res.json();
-        })
-        .then((res) => {
-          for (let i = 0; i < res.data.length; i++) {
-            src.appendChild(generateCard(res.data[i]));
-          }
-        })
-        .catch((err) => {
-          console.log(err);
-        });
-    </script>
-  </body>
+         console.log(user);
+         fetch("https://serene-fortress-45917.herokuapp.com/v1/auth/signup", {
+           method: "POST",
+           headers:{ 
+             "Content-type": "application/json; charset=UTF-8"
+           },
+           body: JSON.stringify(user)}).then(res => res.json())
+           .then(res => {
+             console.log(res);
+           }).catch(err => {
+             console.log(err);
+           })
+         })
+       
+    
+        </script>
+      </body>
+  
 </html>
