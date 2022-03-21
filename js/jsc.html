@@ -33,30 +33,32 @@
 
         </div>
         <script>
-       var eBtn = document.getElementById("event-btn")
-       eBtn.addEventListener("click", (e) => {
-         e.preventDefault()
-         const user = {
-         [e.target.form[0].name]:e.target.form[0].value,
-         [e.target.form[1].name]:e.target.form[1].value,
-         [e.target.form[2].name]:e.target.form[2].value,
-         [e.target.form[3].name]:e.target.form[3].value,
-         }
+      //  var eBtn = document.getElementById("event-btn")
+      //  eBtn.addEventListener("click", (e) => {
+      //    e.preventDefault()
+      //    const user = {
+      //    [e.target.form[0].name]:e.target.form[0].value,
+      //    [e.target.form[1].name]:e.target.form[1].value,
+      //    [e.target.form[2].name]:e.target.form[2].value,
+      //    [e.target.form[3].name]:e.target.form[3].value,
+      //    }
 
-         console.log(user);
-         fetch("https://serene-fortress-45917.herokuapp.com/v1/auth/signup", {
-           method: "POST",
-           headers:{ 
-             "Content-type": "application/json; charset=UTF-8"
-           },
-           body: JSON.stringify(user)}).then(res => res.json())
-           .then(res => {
-             console.log(res);
-           }).catch(err => {
-             console.log(err);
-           })
-         })
+      //    console.log(user);
+      //    fetch("https://serene-fortress-45917.herokuapp.com/v1/auth/signup", {
+      //      method: "POST",
+      //      headers:{ 
+      //        "Content-type": "application/json; charset=UTF-8"
+      //      },
+      //      body: JSON.stringify(user)}).then(res => res.json())
+      //      .then(res => {
+      //        console.log(res);
+      //      }).catch(err => {
+      //        console.log(err);
+      //      })
+      //    })
        
+      
+
     
         </script>
       </body>
