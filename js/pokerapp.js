@@ -24,11 +24,11 @@
 //     }
 //   };
 
-//   await getPokeList();
-//   pokemonArr = pokemonResourse.results.map((p) => {
-//     return getPokemon(p.url);
-//   });
+  await getPokeList();
+  pokemonArr = pokemonResourse.results.map((p) => {
+    return getPokemon(p.url);
+  });
 
-//   await Promise.all(pokemonArr);
-//   console.log(pokemonInfo);
-// };
+  await Promise.all(pokemonArr);
+  console.log(pokemonInfo);
+};
