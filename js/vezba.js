@@ -1228,32 +1228,32 @@
 
 // console.log(sum(1)(2)(3)(4));
 
-// function generateCard(vals) {
-//   var subDiv = document.createElement("div");
-//   subDiv.style.width = "200px";
-//   subDiv.style.height = "300px";
-//   subDiv.style.backgroundColor = "orange";
-//   subDiv.style.border = "solid 1px black";
-//   subDiv.style.borderRadius = "10px";
-//   subDiv.style.margin = "10px";
-//   subDiv.innerHTML = vals.fact;
-//   return subDiv;
-// }
+function generateCard(vals) {
+  var subDiv = document.createElement("div");
+  subDiv.style.width = "200px";
+  subDiv.style.height = "300px";
+  subDiv.style.backgroundColor = "orange";
+  subDiv.style.border = "solid 1px black";
+  subDiv.style.borderRadius = "10px";
+  subDiv.style.margin = "10px";
+  subDiv.innerHTML = vals.fact;
+  return subDiv;
+}
 
-// var src = document.getElementById("moj_div");
-// src.style.display = "flex";
-// src.style.justifyContent = "flex-start";
-// src.style.flexWrap = "wrap";
+var src = document.getElementById("moj_div");
+src.style.display = "flex";
+src.style.justifyContent = "flex-start";
+src.style.flexWrap = "wrap";
 
-// fetch("https://catfact.ninja/facts")
-//   .then((res) => {
-//     return res.json();
-//   })
-//   .then((res) => {
-//     for (let i = 0; i < res.data.length; i++) {
-//       src.appendChild(generateCard(res.data[i]));
-//     }
-//   })
-//   .catch((err) => {
-//     console.log(err);
-//   });
+fetch("https://catfact.ninja/facts")
+  .then((res) => {
+    return res.json();
+  })
+  .then((res) => {
+    for (let i = 0; i < res.data.length; i++) {
+      src.appendChild(generateCard(res.data[i]));
+    }
+  })
+  .catch((err) => {
+    console.log(err);
+  });

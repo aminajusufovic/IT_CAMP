@@ -16,19 +16,19 @@
 
 //   const getPokemon = async (URL) => {
 //     try {
-      const p = await fetch(URL);
-      const pokemon = await p.json();
-      pokemonInfo.push(pokemon);
-    } catch (error) {
-      console.log(error);
-    }
-  };
+//       const p = await fetch(URL);
+//       const pokemon = await p.json();
+//       pokemonInfo.push(pokemon);
+//     } catch (error) {
+//       console.log(error);
+//     }
+//   };
 
-  await getPokeList();
-  pokemonArr = pokemonResourse.results.map((p) => {
-    return getPokemon(p.url);
-  });
+//   await getPokeList();
+//   pokemonArr = pokemonResourse.results.map((p) => {
+//     return getPokemon(p.url);
+//   });
 
-  await Promise.all(pokemonArr);
-  console.log(pokemonInfo);
-};
+//   await Promise.all(pokemonArr);
+//   console.log(pokemonInfo);
+// };
