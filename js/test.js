@@ -15,8 +15,8 @@ function transpose(matrix) {
     for (let j = 0; j < matrix.slice().length; j++) {
       tempArr.push(matrix[j][i]);
     }
-//     arr.push(tempArr);
-//   }
-//   return arr;
-// }
-// transpose(1, 2, 3, 4, 5, 6);
+    arr.push(tempArr);
+  }
+  return arr;
+}
+transpose(1, 2, 3, 4, 5, 6);
