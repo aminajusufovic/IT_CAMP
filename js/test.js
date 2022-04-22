@@ -6,17 +6,17 @@ function pattern(n) {
   return arr.join("\n").replace("1", "");
 }
 
-pattern(10);
+// pattern(10);
 
-// function transpose(matrix) {
-//   let arr = [];
-//   for (let i = 0; i < matrix[0].slice().length; i++) {
-//     let tempArr = [];
-//     for (let j = 0; j < matrix.slice().length; j++) {
-//       tempArr.push(matrix[j][i]);
-//     }
-//     arr.push(tempArr);
-//   }
-//   return arr;
-// }
-// transpose(1, 2, 3, 4, 5, 6);
+// // function transpose(matrix) {
+// //   let arr = [];
+// //   for (let i = 0; i < matrix[0].slice().length; i++) {
+// //     let tempArr = [];
+// //     for (let j = 0; j < matrix.slice().length; j++) {
+// //       tempArr.push(matrix[j][i]);
+// //     }
+// //     arr.push(tempArr);
+// //   }
+// //   return arr;
+// // }
+// // transpose(1, 2, 3, 4, 5, 6);
