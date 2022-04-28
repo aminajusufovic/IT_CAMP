@@ -1,0 +1,80 @@
+nav,
+ul,
+li {
+  text-decoration: none;
+  display: inline-block;
+  background-color: lightgrey;
+}
+nav li {
+  width: 300px;
+  padding: 10px;
+}
+nav {
+  position: relative;
+  left: 350px;
+}
+.forma {
+  position: absolute;
+  left: 360px;
+  border: 1px solid black;
+  padding: 20px;
+  margin-top: 30px;
+}
+.pop {
+  border: 1px solid black;
+}
+.img {
+  width: 400px;
+  height: 420px;
+  position: absolute;
+  left: 940px;
+  margin-top: 30px;
+}
+.sidebar {
+  border: 1px solid black;
+  width: 300px;
+  height: 600px;
+  position: absolute;
+  background-color: black;
+}
+.sb {
+  color: white;
+  padding: 100px;
+  padding-top: 200px;
+  font-size: 40px;
+}
+.sve {
+  position: relative;
+}
+.poi,
+.pob,
+.poa {
+  text-decoration: none;
+  display: inline-block;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.poi,
+.pob {
+  width: 600px;
+
+  padding-left: 200px;
+}
+
+.poi {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+}
+.naslovna {
+  width: 900px;
+  background-color: black;
+  color: white;
+  font-size: 50px;
+  height: 100px;
+  width: 1500px;
+  padding-left: 450px;
+  padding-top: 50px;
+}
